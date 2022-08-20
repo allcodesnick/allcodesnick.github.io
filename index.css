@@ -20,6 +20,7 @@
   padding-right: 15px;
   float: left;
   width: 33%;
+  /* Add grid for 3 rows and add a new div for the child p tag and add "flexbox".*/
 }
 
 .img-section {
