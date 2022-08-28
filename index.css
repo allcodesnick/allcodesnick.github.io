@@ -8,6 +8,25 @@
   padding-bottom: 80%;
 }
 
+.project-section {
+  display: grid;
+  grid-column: 3;
+  margin-top: 5px;
+  padding: 15px;
+  min-height: fit-content;
+  min-width: fit-content;
+  overflow: hidden;
+}
+
+.project {
+  padding-right: 15px;
+}
+
+.project-section article {
+  flex-direction: column;
+  flex: 200px;
+}
+
 #content-section {
   margin-top: 5px;
   padding: 15px;
@@ -16,14 +35,9 @@
   overflow: hidden;
 }
 
-.child {
-  padding-right: 15px;
-  float: left;
-  width: 33%;
-}
 
 .img-section {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
