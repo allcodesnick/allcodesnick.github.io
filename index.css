@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family:'Courier New';
 }
 #outer-banner {
   background-image: url("./assets/images/webbanner.jpg");
@@ -20,6 +21,16 @@
 
 .project {
   padding-right: 15px;
+<<<<<<< HEAD
+=======
+  float: left;
+  width: 33%;
+  /* Add grid for 3 rows and add a new div for the child p tag and add "flexbox".*/
+}
+
+#project-description {
+  text-align: right;
+>>>>>>> 1bf683681312b1e7a2d9b42bec45bc5a8ce975d7
 }
 
 .project-section article {
