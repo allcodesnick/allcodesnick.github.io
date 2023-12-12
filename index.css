@@ -1,3 +1,160 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Apply styles to the banner image */
+.webbanner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Add additional styles for the container if needed */
+div {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 20px;
+  background-color: #333; /* Dark section background color */
+  border-radius: 8px; /* Add border radius for a softer look */
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #fff;
+}
+
+section h3 {
+  color: #66ccff; /* Light blue color */
+}
+
+section p {
+  margin: 10px 0;
+}
+
+
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer hr {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+footer h5 {
+  margin: 0;
+  font-size: 1em;
+}
+
+footer img {
+  margin: 10px;
+}
+
+
+/* Web Responsive */
+@media screen and (max-width: 600px) {
+  header h1 {
+      font-size: 20px;
+  }
+
+  header p {
+      font-size: 16px;
+  }
+
+  section h2,
+  section h3 {
+      font-size: 1.5em;
+  }
+
+  section p {
+      font-size: 14px;
+  }
+
+  footer h5 {
+      font-size: 16px;
+  }
+}
+
+
+/* Header Animation */
+header.fadeIn {
+  animation: fadeIn 2s ease-in-out;
+}
+
+section.slideIn {
+  animation: slideIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+/* Footer animation */
+footer div.scaleIn {
+  animation: scaleIn 1s ease-in-out;
+}
+
+@keyframes scaleIn {
+  from {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
 }
