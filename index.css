@@ -127,7 +127,7 @@ section.slideIn {
       opacity: 0;
   }
   to {
-      opacity: 1;
+      opacity: 2;
   }
 }
 
@@ -138,7 +138,7 @@ section.slideIn {
   }
   to {
       transform: translateY(0);
-      opacity: 1;
+      opacity: 2;
   }
 }
 
@@ -155,6 +155,6 @@ footer div.scaleIn {
   }
   to {
       transform: scale(1);
-      opacity: 1;
+      opacity: 2;
   }
 }
