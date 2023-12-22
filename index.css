@@ -64,6 +64,11 @@ section h3 {
 section p {
   margin: 10px 0;
 }
+section a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
 
 footer {
