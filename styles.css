@@ -150,7 +150,7 @@ section.slideIn {
 
 /* Footer animation */
 footer div.scaleIn {
-  animation: scaleIn 1s ease-in-out;
+  animation: scaleIn 5s ease-in-out;
 }
 
 @keyframes scaleIn {
